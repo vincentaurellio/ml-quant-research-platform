@@ -1,8 +1,33 @@
-.venv/
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+venv/
 
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded and processed datasets
 data/raw/
 data/processed/
 
+# Trained models and model artifacts
+/models/
+*.joblib
+*.pkl
+
+# Generated reports and experiment outputs
+reports/*.json
+reports/*.csv
+reports/*.parquet
+
+# Jupyter
 .ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

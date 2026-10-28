@@ -2,3 +2,5 @@ yfinance
 pandas
 pyarrow
 pytest
+scikit-learn>=1.4
+joblib
